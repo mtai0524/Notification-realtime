@@ -1,67 +1,462 @@
 ﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@model List<Notification>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SignalRYoutube</title>
+    <link href="~/css/my-task.style.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SignalRYoutube.styles.css" asp-append-version="true" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        a{
+            text-decoration:none;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SignalRYoutube</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
+    @* <header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container-fluid">
+    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SignalRYoutube</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+    <ul class="navbar-nav flex-grow-1">
+    <li class="nav-item">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Notification" asp-action="Index">Notification</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </nav>
+    </header> *@
+
+    <div id="mytask-layout" class="theme-indigo">
+
+        <!-- sidebar -->
+        <div class="sidebar px-4 py-4 py-md-5 me-0">
+            <div class="d-flex flex-column h-100">
+                <a href="index.html" class="mb-0 brand-icon">
+                    <span class="logo-icon">
+                        <svg width="35" height="35" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                            <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                            <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                        </svg>
+                    </span>
+                    <span class="logo-text">My-Task</span>
+                </a>
+                <!-- Menu: main ul -->
+
+                <ul class="menu-list flex-grow-1 mt-3">
+                    <li class="collapsed">
+                        <a class="m-link active" data-bs-toggle="collapse" data-bs-target="#dashboard-Components" href="#">
+                            <i class="icofont-home fs-5"></i> <span>Dashboard</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span>
+                        </a>
+                        <!-- Menu: Sub menu ul -->
+                        <ul class="sub-menu collapse show" id="dashboard-Components">
+
+                            <li>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Notification" asp-action="Index">Notification</a>
+                            </li>
+                            <li><a class="ms-link" href="project-dashboard.html"> <span>Project Dashboard</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="collapsed">
+                        <a class="m-link" data-bs-toggle="collapse" data-bs-target="#project-Components" href="#">
+                            <i class="icofont-briefcase"></i><span>Projects</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span>
+                        </a>
+                        <!-- Menu: Sub menu ul -->
+                        <ul class="sub-menu collapse" id="project-Components">
+                            <li><a class="ms-link" href="projects.html"><span>Projects</span></a></li>
+                            <li><a class="ms-link" href="task.html"><span>Tasks</span></a></li>
+                            <li><a class="ms-link" href="timesheet.html"><span>Timesheet</span></a></li>
+                            <li><a class="ms-link" href="team-leader.html"><span>Leaders</span></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="collapsed">
+                        <a class="m-link" data-bs-toggle="collapse" data-bs-target="#tikit-Components" href="#">
+                            <i class="icofont-ticket"></i> <span>Tickets</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span>
+                        </a>
+                        <!-- Menu: Sub menu ul -->
+                        <ul class="sub-menu collapse" id="tikit-Components">
+                            <li><a class="ms-link" href="tickets.html"> <span>Tickets View</span></a></li>
                             <a class="nav-link text-dark" asp-area="" asp-controller="Notification" asp-action="Index">Notification</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
-                        </li>
-                    </ul>
-                </div>
+
+                            <li><a class="ms-link" href="ticket-detail.html"> <span>Ticket Detail</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="collapsed">
+                        <a class="m-link" data-bs-toggle="collapse" data-bs-target="#client-Components" href="#">
+                            <i class="icofont-user-male"></i> <span>Our Clients</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span>
+                        </a>
+                        <!-- Menu: Sub menu ul -->
+                        <ul class="sub-menu collapse" id="client-Components">
+                            <li><a class="ms-link" href="ourclients.html"> <span>Clients</span></a></li>
+                            <li><a class="ms-link" href="profile.html"> <span>Client Profile</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="collapsed">
+                        <a class="m-link" data-bs-toggle="collapse" data-bs-target="#emp-Components" href="#">
+                            <i class="icofont-users-alt-5"></i> <span>Employees</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span>
+                        </a>
+                        <!-- Menu: Sub menu ul -->
+                        <ul class="sub-menu collapse" id="emp-Components">
+                            <li><a class="ms-link" href="members.html"> <span>Members</span></a></li>
+                            <li><a class="ms-link" href="employee-profile.html"> <span>Members Profile</span></a></li>
+                            <li><a class="ms-link" href="holidays.html"> <span>Holidays</span></a></li>
+                            <li><a class="ms-link" href="attendance-employees.html"> <span>Attendance Employees</span></a></li>
+                            <li><a class="ms-link" href="attendance.html"> <span>Attendance</span></a></li>
+                            <li><a class="ms-link" href="leave-request.html"> <span>Leave Request</span></a></li>
+                            <li><a class="ms-link" href="department.html"> <span>Department</span></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="collapsed">
+                        <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu-Componentsone" href="#">
+                            <i class="icofont-ui-calculator"></i> <span>Accounts</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span>
+                        </a>
+                        <!-- Menu: Sub menu ul -->
+                        <ul class="sub-menu collapse" id="menu-Componentsone">
+                            <li><a class="ms-link" href="invoices.html"><span>Invoices</span> </a></li>
+                            <li><a class="ms-link" href="payments.html"><span>Payments</span> </a></li>
+                            <li><a class="ms-link" href="expenses.html"><span>Expenses</span> </a></li>
+                        </ul>
+                    </li>
+                    <li class="collapsed">
+                        <a class="m-link" data-bs-toggle="collapse" data-bs-target="#payroll-Components" href="#">
+                            <i class="icofont-users-alt-5"></i> <span>Payroll</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span>
+                        </a>
+                        <!-- Menu: Sub menu ul -->
+                        <ul class="sub-menu collapse" id="payroll-Components">
+                            <li><a class="ms-link" href="salaryslip.html"><span>Employee Salary</span> </a></li>
+
+                        </ul>
+                    </li>
+                    <li class="collapsed">
+                        <a class="m-link" data-bs-toggle="collapse" data-bs-target="#app-Components" href="#">
+                            <i class="icofont-contrast"></i> <span>App</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span>
+                        </a>
+                        <!-- Menu: Sub menu ul -->
+                        <ul class="sub-menu collapse" id="app-Components">
+                            <li><a class="ms-link" href="calendar.html"> <span>Calander</span></a></li>
+                            <li><a class="ms-link" href="chat.html"><span>Chat App</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="collapsed">
+                        <a class="m-link" data-bs-toggle="collapse" data-bs-target="#extra-Components" href="#">
+                            <i class="icofont-code-alt"></i> <span>Other Pages</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span>
+                        </a>
+                        <!-- Menu: Sub menu ul -->
+                        <ul class="sub-menu collapse" id="extra-Components">
+                            <li><a class="ms-link" href="charts.html"> <span>Apex Charts</span></a></li>
+                            <li><a class="ms-link" href="forms.html"><span>Forms Example</span></a></li>
+                            <li><a class="ms-link" href="table.html"> <span>Table Example</span></a></li>
+                            <li><a class="ms-link" href="review.html"><span>Reviews Page</span></a></li>
+                            <li><a class="ms-link" href="icon.html"><span>Icons</span></a></li>
+                            <li><a class="ms-link" href="contact.html"><span>Contact</span></a></li>
+                            <li><a class="ms-link" href="widgets.html"><span>Widgets</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a class="m-link" href="ui-elements/ui-alerts.html"><i class="icofont-paint"></i> <span>UI Components</span></a></li>
+                </ul>
+
+                <!-- Theme: Switch Theme -->
+                <ul class="list-unstyled mb-0">
+                    <li class="d-flex align-items-center justify-content-center">
+                        <div class="form-check form-switch theme-switch">
+                            <input class="form-check-input" type="checkbox" id="theme-switch">
+                            <label class="form-check-label" for="theme-switch">Enable Dark Mode!</label>
+                        </div>
+                    </li>
+                    <li class="d-flex align-items-center justify-content-center">
+                        <div class="form-check form-switch theme-rtl">
+                            <input class="form-check-input" type="checkbox" id="theme-rtl">
+                            <label class="form-check-label" for="theme-rtl">Enable RTL Mode!</label>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Menu: menu collepce btn -->
+                <button type="button" class="btn btn-link sidebar-mini-btn text-light">
+                    <span class="ms-2"><i class="icofont-bubble-right"></i></span>
+                </button>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+        </div>
+
+        <!-- main body area -->
+        <div class="main px-lg-4 px-md-4">
+
+            <!-- Body: Header -->
+            <div class="header">
+                <nav class="navbar py-4">
+                    <div class="container-xxl">
+
+                        <!-- header rightbar icon -->
+                        <div class="h-right d-flex align-items-center mr-5 mr-lg-0 order-1">
+                            <div class="d-flex">
+                                <a class="nav-link text-primary collapsed" href="help.html" title="Get Help">
+                                    <i class="icofont-info-square fs-5"></i>
+                                </a>
+                                <div class="avatar-list avatar-list-stacked px-3">
+                                    <img class="avatar rounded-circle" src="assets/images/xs/avatar2.jpg" alt="">
+                                    <img class="avatar rounded-circle" src="assets/images/xs/avatar1.jpg" alt="">
+                                    <img class="avatar rounded-circle" src="assets/images/xs/avatar3.jpg" alt="">
+                                    <img class="avatar rounded-circle" src="assets/images/xs/avatar4.jpg" alt="">
+                                    <img class="avatar rounded-circle" src="assets/images/xs/avatar7.jpg" alt="">
+                                    <img class="avatar rounded-circle" src="assets/images/xs/avatar8.jpg" alt="">
+                                    <span class="avatar rounded-circle text-center pointer" data-bs-toggle="modal" data-bs-target="#addUser"><i class="icofont-ui-add"></i></span>
+                                </div>
+                            </div>
+                            <div class="dropdown notifications zindex-popover">
+                                <a class="nav-link dropdown-toggle pulse" href="#" role="button" data-bs-toggle="dropdown">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <span class="pulse-ring"></span>
+                                </a>
+                                <div id="NotificationsDiv" class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-sm-end p-0 m-0">
+                                    <div class="card border-0 w380">
+                                        <div class="card-header border-0 p-3">
+                                            <h5 class="mb-0 font-weight-light d-flex justify-content-between">
+                                                <span>Notifications</span>
+                                                <span class="badge text-white">11</span>
+                                            </h5>
+                                        </div>
+                                        <div class="tab-content card-body">
+                                            <div class="tab-pane fade show active">
+                                                 @await Component.InvokeAsync("Notification")
+                                            </div>
+                                        </div>
+                                        <a class="card-footer text-center border-top-0" href="#"> View all notifications</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown user-profile ml-2 ml-sm-3 d-flex align-items-center zindex-popover">
+                                <div class="u-info me-2">
+                                    <p class="mb-0 text-end line-height-sm "><span class="font-weight-bold">Dylan Hunter</span></p>
+                                    <small>Admin Profile</small>
+                                </div>
+                                <a class="nav-link dropdown-toggle pulse p-0" href="#" role="button" data-bs-toggle="dropdown" data-bs-display="static">
+                                    <img class="avatar lg rounded-circle img-thumbnail" src="assets/images/profile_av.png" alt="profile">
+                                </a>
+                                <div class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-end p-0 m-0">
+                                    <div class="card border-0 w280">
+                                        <div class="card-body pb-0">
+                                            <div class="d-flex py-1">
+                                                <img class="avatar rounded-circle" src="assets/images/profile_av.png" alt="profile">
+                                                <div class="flex-fill ms-3">
+                                                    <p class="mb-0"><span class="font-weight-bold">Dylan Hunter</span></p>
+                                                    <small class="">Dylan.hunter@gmail.com</small>
+                                                </div>
+                                            </div>
+
+                                            <div><hr class="dropdown-divider border-dark"></div>
+                                        </div>
+                                        <div class="list-group m-2 ">
+                                            <a href="task.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-tasks fs-5 me-3"></i>My Task</a>
+                                            <a href="members.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-ui-user-group fs-6 me-3"></i>members</a>
+                                            <a href="ui-elements/auth-signin.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-logout fs-6 me-3"></i>Signout</a>
+                                            <div><hr class="dropdown-divider border-dark"></div>
+                                            <a href="ui-elements/auth-signup.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-contact-add fs-5 me-3"></i>Add personal account</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- menu toggler -->
+                        <button class="navbar-toggler p-0 border-0 menu-toggle order-3" type="button" data-bs-toggle="collapse" data-bs-target="#mainHeader">
+                            <span class="fa fa-bars"></span>
+                        </button>
+
+                        <!-- main menu Search-->
+                        <div class="order-0 col-lg-4 col-md-4 col-sm-12 col-12 mb-3 mb-md-0 ">
+                            <div class="input-group flex-nowrap input-group-lg">
+                                <button type="button" class="input-group-text" id="addon-wrapping"><i class="fa fa-search"></i></button>
+                                <input type="search" class="form-control" placeholder="Search" aria-label="search" aria-describedby="addon-wrapping">
+                                <button type="button" class="input-group-text add-member-top" id="addon-wrappingone" data-bs-toggle="modal" data-bs-target="#addUser"><i class="fa fa-plus"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+
             <input type="hidden" id="hfUsername" value="@HttpContextAccessor.HttpContext?.Session.GetString("Username")" />
             @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - SignalRYoutube - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <!-- Modal Members-->
+            <div class="modal fade" id="addUser" tabindex="-1" aria-labelledby="addUserLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title  fw-bold" id="addUserLabel">Employee Invitation</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="inviteby_email">
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" placeholder="Email address" id="exampleInputEmail1" aria-describedby="exampleInputEmail1">
+                                    <button class="btn btn-dark" type="button" id="button-addon2">Sent</button>
+                                </div>
+                            </div>
+                            <div class="members_list">
+                                <h6 class="fw-bold ">Employee </h6>
+                                <ul class="list-unstyled list-group list-group-custom list-group-flush mb-0">
+                                    <li class="list-group-item py-3 text-center text-md-start">
+                                        <div class="d-flex align-items-center flex-column flex-sm-column flex-md-column flex-lg-row">
+                                            <div class="no-thumbnail mb-2 mb-md-0">
+                                                <img class="avatar lg rounded-circle" src="assets/images/xs/avatar2.jpg" alt="">
+                                            </div>
+                                            <div class="flex-fill ms-3 text-truncate">
+                                                <h6 class="mb-0  fw-bold">Rachel Carr(you)</h6>
+                                                <span class="text-muted">rachel.carr@gmail.com</span>
+                                            </div>
+                                            <div class="members-action">
+                                                <span class="members-role ">Admin</span>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <i class="icofont-ui-settings  fs-6"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-ui-password fs-6 me-2"></i>ResetPassword</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-chart-line fs-6 me-2"></i>ActivityReport</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item py-3 text-center text-md-start">
+                                        <div class="d-flex align-items-center flex-column flex-sm-column flex-md-column flex-lg-row">
+                                            <div class="no-thumbnail mb-2 mb-md-0">
+                                                <img class="avatar lg rounded-circle" src="assets/images/xs/avatar3.jpg" alt="">
+                                            </div>
+                                            <div class="flex-fill ms-3 text-truncate">
+                                                <h6 class="mb-0  fw-bold">Lucas Baker<a href="#" class="link-secondary ms-2">(Resend invitation)</a></h6>
+                                                <span class="text-muted">lucas.baker@gmail.com</span>
+                                            </div>
+                                            <div class="members-action">
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Members
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">
+                                                                <i class="icofont-check-circled"></i>
+
+                                                                <span>All operations permission</span>
+                                                            </a>
+
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">
+                                                                <i class="fs-6 p-2 me-1"></i>
+                                                                <span>Only Invite & manage team</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <i class="icofont-ui-settings  fs-6"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-delete-alt fs-6 me-2"></i>Delete Member</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item py-3 text-center text-md-start">
+                                        <div class="d-flex align-items-center flex-column flex-sm-column flex-md-column flex-lg-row">
+                                            <div class="no-thumbnail mb-2 mb-md-0">
+                                                <img class="avatar lg rounded-circle" src="assets/images/xs/avatar8.jpg" alt="">
+                                            </div>
+                                            <div class="flex-fill ms-3 text-truncate">
+                                                <h6 class="mb-0  fw-bold">Una Coleman</h6>
+                                                <span class="text-muted">una.coleman@gmail.com</span>
+                                            </div>
+                                            <div class="members-action">
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Members
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">
+                                                                <i class="icofont-check-circled"></i>
+
+                                                                <span>All operations permission</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">
+                                                                <i class="fs-6 p-2 me-1"></i>
+                                                                <span>Only Invite & manage team</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <i class="icofont-ui-settings  fs-6"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu dropdown-menu-end">
+                                                            <li><a class="dropdown-item" href="#"><i class="icofont-ui-password fs-6 me-2"></i>ResetPassword</a></li>
+                                                            <li><a class="dropdown-item" href="#"><i class="icofont-chart-line fs-6 me-2"></i>ActivityReport</a></li>
+                                                            <li><a class="dropdown-item" href="#"><i class="icofont-delete-alt fs-6 me-2"></i>Suspend member</a></li>
+                                                            <li><a class="dropdown-item" href="#"><i class="icofont-not-allowed fs-6 me-2"></i>Delete Member</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
-    <script src="~/js/notification.js"></script>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2023 - SignalRYoutube - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+        <script src="~/js/chart-apex.js"></script>
+        <script src="~/js/apexcharts.bundle.js"></script>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    @await RenderSectionAsync("Scripts", required: false)
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+        <script src="~/js/notification.js"></script>
+
+        @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

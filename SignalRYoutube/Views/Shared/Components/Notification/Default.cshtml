@@ -1,0 +1,19 @@
+﻿@model List<Notification>
+
+<ul class="list-unstyled list mb-0">
+    @foreach (var notification in Model.OrderByDescending(n => n.NotificationDateTime))
+    {
+        <li class="py-2 mb-1 border-bottom">
+            <a href="javascript:void(0);" class="d-flex">
+                <img class="avatar rounded-circle" src="https://source.unsplash.com/random/200x200?sig=@notification.GetHashCode()" alt="img">
+                <div class="flex-fill ms-2">
+                    <p class="d-flex justify-content-between mb-0">
+                        <span class="font-weight-bold">@notification.Username</span>
+                        <small>@notification.NotificationDateTime</small>
+                    </p>
+                    <span>@notification.Message <span class="badge bg-success">@notification.MessageType</span></span>
+                </div>
+            </a>
+        </li>
+    }
+</ul>
