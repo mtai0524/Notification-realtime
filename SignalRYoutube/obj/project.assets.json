@@ -12936,11 +12936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Notification-realtime\\SignalRYoutube\\SignalRYoutube.csproj",
+      "projectUniqueName": "T:\\Notification-realtime\\SignalRYoutube\\SignalRYoutube.csproj",
       "projectName": "SignalRYoutube",
-      "projectPath": "E:\\Notification-realtime\\SignalRYoutube\\SignalRYoutube.csproj",
+      "projectPath": "T:\\Notification-realtime\\SignalRYoutube\\SignalRYoutube.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "E:\\Notification-realtime\\SignalRYoutube\\obj\\",
+      "outputPath": "T:\\Notification-realtime\\SignalRYoutube\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

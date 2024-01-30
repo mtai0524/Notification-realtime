@@ -17,11 +17,33 @@ namespace SignalRYoutube.Controllers
             this.hubContext = hubContext;
             this.dbContext = dbContext;
         }
+     
+
         [HttpGet]
         public async Task<IActionResult> GetNotifications()
         {
-            var res = await dbContext.Notifications.OrderByDescending(n => n.NotificationDateTime).ToListAsync();
-            return Ok(res);
+            try
+            {
+                var notifications = await dbContext.Notifications
+                    .OrderByDescending(n => n.NotificationDateTime)
+                    .ToListAsync();
+
+                // Định dạng ngày tháng năm và chọn các thuộc tính khác của Notification (nếu có)
+                var formattedNotifications = notifications.Select(n => new
+                {
+                    n.Id,
+                    n.Username,
+                    n.Message,
+                    n.MessageType,
+                    NotificationDateTime = n.NotificationDateTime.ToString("hh:mm:ss dd/MM/yyyy"),
+                });
+
+                return Ok(formattedNotifications);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
         public IActionResult Index()
         {
@@ -43,6 +65,8 @@ namespace SignalRYoutube.Controllers
                 };
                 dbContext.Notifications.Add(notification);
                 await dbContext.SaveChangesAsync();
+                await hubContext.Clients.All.SendAsync("ReceiveNotificationRealtime", new List<Notification> { notification });
+
                 switch (notification.MessageType)
                 {
                     case "Personal":

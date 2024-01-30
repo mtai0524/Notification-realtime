@@ -9,8 +9,11 @@
     return console.error(err.toString());
 });
 
+    LoadNotificationData();
 
     connection.on("ReceiveNotificationRealtime", function (notifications) {
+        LoadNotificationData();
+
         UpdateNotificationList(notifications);
         LoadNotificationData();
 

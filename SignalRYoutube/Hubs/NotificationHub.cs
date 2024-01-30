@@ -30,7 +30,7 @@ namespace SignalRYoutube.Hubs
         }
         public async Task SendNotificationToGroup(string message, string group)
         {
-            var hubConnections = dbContext.HubConnections.Join(dbContext.TblUser, c => c.Username, o => o.Username, (c, o) => new { c.Username, c.ConnectionId, o.Dept }).Where(o => o.Dept == group).ToList();
+            var hubConnections = await dbContext.HubConnections.Join(dbContext.TblUser, c => c.Username, o => o.Username, (c, o) => new { c.Username, c.ConnectionId, o.Dept }).Where(o => o.Dept == group).ToListAsync();
             foreach (var hubConnection in hubConnections)
             {
                 string username = hubConnection.Username;
