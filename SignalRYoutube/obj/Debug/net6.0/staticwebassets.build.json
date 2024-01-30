@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BEPVGGqm+G2z95Pb2Cclx5P6zjDdZka+zeUieabs7bE=",
+  "Hash": "G8ChE4SDSZtbm1LcwolMBY2hn4PUKLeTRnLZWrTzp2Q=",
   "Source": "SignalRYoutube",
   "BasePath": "_content/SignalRYoutube",
   "Mode": "Default",
@@ -1288,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "SourceId": "SignalRYoutube",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "BasePath": "_content/SignalRYoutube",
+      "RelativePath": "microsoft/signalr/dist/browser/signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.js"
     }
   ]
 }

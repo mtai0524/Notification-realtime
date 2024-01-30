@@ -18,7 +18,10 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
     options.UseSqlServer(connectionString),
     ServiceLifetime.Singleton);
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.PropertyNamingPolicy = null;
+});
 // DI
 builder.Services.AddSingleton<UserRepo>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
