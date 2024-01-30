@@ -17,6 +17,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
     options.UseSqlServer(connectionString),
     ServiceLifetime.Singleton);
+//, ServiceLifetime.Transient
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
@@ -32,7 +33,7 @@ builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
-
+//builder.Services.AddTransient<ApplicationDBContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

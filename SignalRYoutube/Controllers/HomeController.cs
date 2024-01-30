@@ -19,8 +19,6 @@ namespace SignalRYoutube.Controllers
 
         public IActionResult Index()
         {
-            List<Notification> notifications = dbContext.Notifications.ToList();
-            ViewBag.Notifications = notifications;
             return View();
         }
 

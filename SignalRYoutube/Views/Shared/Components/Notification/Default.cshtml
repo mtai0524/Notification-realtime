@@ -1,6 +1,6 @@
 ﻿@model List<Notification>
 
-<ul class="list-unstyled list mb-0">
+<ul  class="list-unstyled list mb-0">
     @foreach (var notification in Model.OrderByDescending(n => n.NotificationDateTime))
     {
         <li class="py-2 mb-1 border-bottom">

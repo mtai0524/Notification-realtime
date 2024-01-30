@@ -25,8 +25,6 @@ namespace SignalRYoutube.Controllers
         }
         public IActionResult Index()
         {
-            List<Notification> notifications = dbContext.Notifications.ToList();
-            ViewBag.Notifications = notifications;
             return View();
         }
 
@@ -60,7 +58,7 @@ namespace SignalRYoutube.Controllers
                         break;
                 }
 
-
+                await hubContext.Clients.All.SendAsync("ReceiveNotification", new List<Notification> { notification });
                 return RedirectToAction("Index");
             }
 

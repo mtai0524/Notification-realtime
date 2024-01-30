@@ -24,14 +24,9 @@ namespace SignalRYoutube.ViewComponents
             return View("/Views/Shared/Components/Notification/Default.cshtml", notifications);
         }
 
-
         public async Task<IEnumerable<Notification>> GetNotificationsFromDatabaseAsync()
         {
-            // Logic để lấy dữ liệu từ cơ sở dữ liệu
             var res = await dbContext.Notifications.ToListAsync();
-            // Sau khi cập nhật dữ liệu, thông báo cho client
-            await _hubContext.Clients.All.SendAsync("ReceiveNotificationDiv");
-
             return res;
         }
     }

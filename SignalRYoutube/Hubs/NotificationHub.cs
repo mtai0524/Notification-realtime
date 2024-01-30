@@ -13,13 +13,7 @@ namespace SignalRYoutube.Hubs
         {
             this.dbContext = dbContext;
         }
-    
 
-        public async Task SendNotification(List<Notification> notifications)
-        {
-            // Thêm điểm chấm dừng hoặc in log ở đây
-            await Clients.All.SendAsync("ReceiveNotificationDiv", notifications);
-        }
 
         public async Task SendNotificationToAll(string message)
         {
