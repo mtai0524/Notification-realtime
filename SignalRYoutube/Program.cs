@@ -1,3 +1,4 @@
+using Hangfire;
 using Microsoft.EntityFrameworkCore;
 using SignalRYoutube.Data;
 using SignalRYoutube.Hubs;
@@ -23,7 +24,6 @@ builder.Services.AddSingleton<UserRepo>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddSingleton<NotificationHub>();
 builder.Services.AddSingleton<SubscribeNotificationTableDependency>();
-
 // Session
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
@@ -53,7 +53,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.UseSession();
 app.MapHub<NotificationHub>("/notificationHub");
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Account}/{action=Signin}/{id?}");

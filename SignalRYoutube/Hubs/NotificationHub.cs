@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.SignalR;
+using Microsoft.EntityFrameworkCore;
 using SignalRYoutube.Data;
 using SignalRYoutube.Models;
 
@@ -12,12 +13,19 @@ namespace SignalRYoutube.Hubs
         {
             this.dbContext = dbContext;
         }
+    
+
+        public async Task SendNotification(List<Notification> notifications)
+        {
+            // Thêm điểm chấm dừng hoặc in log ở đây
+            await Clients.All.SendAsync("ReceiveNotificationDiv", notifications);
+        }
 
         public async Task SendNotificationToAll(string message)
         {
             await Clients.All.SendAsync("ReceivedNotification", message);
         }
-
+     
         public async Task SendNotificationToClient(string message, string username)
         {
             var hubConnections = dbContext.HubConnections.Where(con => con.Username == username).ToList();
@@ -56,16 +64,18 @@ namespace SignalRYoutube.Hubs
             await dbContext.SaveChangesAsync();
         }
 
-        public override Task OnDisconnectedAsync(Exception? exception)
+        public override async Task OnDisconnectedAsync(Exception? exception)
         {
             var hubConnection = dbContext.HubConnections.FirstOrDefault(con => con.ConnectionId == Context.ConnectionId);
-            if(hubConnection != null)
+
+            if (hubConnection != null)
             {
                 dbContext.HubConnections.Remove(hubConnection);
-                dbContext.SaveChangesAsync();
+                await dbContext.SaveChangesAsync();  // await the asynchronous operation
             }
 
-            return base.OnDisconnectedAsync(exception);
+            await base.OnDisconnectedAsync(exception);
         }
+
     }
 }

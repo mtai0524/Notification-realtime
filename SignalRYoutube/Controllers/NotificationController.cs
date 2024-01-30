@@ -17,9 +17,16 @@ namespace SignalRYoutube.Controllers
             this.hubContext = hubContext;
             this.dbContext = dbContext;
         }
-
+        [HttpGet]
+        public IActionResult GetNotifications()
+        {
+            var res = dbContext.Notifications.ToList();
+            return Ok(res);
+        }
         public IActionResult Index()
         {
+            List<Notification> notifications = dbContext.Notifications.ToList();
+            ViewBag.Notifications = notifications;
             return View();
         }
 
@@ -38,7 +45,6 @@ namespace SignalRYoutube.Controllers
                 };
                 dbContext.Notifications.Add(notification);
                 await dbContext.SaveChangesAsync();
-
                 switch (notification.MessageType)
                 {
                     case "Personal":

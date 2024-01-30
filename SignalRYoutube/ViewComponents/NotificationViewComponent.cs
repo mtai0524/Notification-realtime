@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using SignalRYoutube.Data;
+using SignalRYoutube.Hubs;
 using SignalRYoutube.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -9,10 +11,11 @@ namespace SignalRYoutube.ViewComponents
     public class NotificationViewComponent : ViewComponent
     {
         private readonly ApplicationDBContext dbContext;
-
-        public NotificationViewComponent(ApplicationDBContext dbContext)
+        private readonly IHubContext<NotificationHub> _hubContext;
+        public NotificationViewComponent(ApplicationDBContext dbContext, IHubContext<NotificationHub> hubContext)
         {
             this.dbContext = dbContext;
+            _hubContext = hubContext;
         }
 
         public async Task<IViewComponentResult> InvokeAsync()
@@ -21,11 +24,15 @@ namespace SignalRYoutube.ViewComponents
             return View("/Views/Shared/Components/Notification/Default.cshtml", notifications);
         }
 
-        private async Task<List<Notification>> GetNotificationsFromDatabaseAsync()
+
+        public async Task<IEnumerable<Notification>> GetNotificationsFromDatabaseAsync()
         {
-            // Thực hiện truy vấn cơ sở dữ liệu và trả về danh sách thông báo
-            // Đây chỉ là một ví dụ, bạn cần thay thế nó bằng truy vấn thực tế của bạn
-            return await dbContext.Notifications.ToListAsync();
+            // Logic để lấy dữ liệu từ cơ sở dữ liệu
+            var res = await dbContext.Notifications.ToListAsync();
+            // Sau khi cập nhật dữ liệu, thông báo cho client
+            await _hubContext.Clients.All.SendAsync("ReceiveNotificationDiv");
+
+            return res;
         }
     }
 }
