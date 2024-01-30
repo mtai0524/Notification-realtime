@@ -20,7 +20,7 @@ namespace SignalRYoutube.Controllers
         [HttpGet]
         public async Task<IActionResult> GetNotifications()
         {
-            var res = await dbContext.Notifications.ToListAsync();
+            var res = await dbContext.Notifications.OrderByDescending(n => n.NotificationDateTime).ToListAsync();
             return Ok(res);
         }
         public IActionResult Index()
