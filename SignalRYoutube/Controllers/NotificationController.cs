@@ -35,7 +35,7 @@ namespace SignalRYoutube.Controllers
                     n.Username,
                     n.Message,
                     n.MessageType,
-                    NotificationDateTime = n.NotificationDateTime.ToString("hh:mm:ss dd/MM/yyyy"),
+                    NotificationDateTime = n.NotificationDateTime.ToString("hh:mm dd/MM/yyyy"),
                 });
 
                 return Ok(formattedNotifications);
