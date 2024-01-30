@@ -13,7 +13,7 @@ namespace SignalRYoutube.Hubs
         {
             this.dbContext = dbContext;
         }
-
+      
 
         public async Task SendNotificationToAll(string message)
         {

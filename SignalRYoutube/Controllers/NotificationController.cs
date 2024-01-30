@@ -18,9 +18,9 @@ namespace SignalRYoutube.Controllers
             this.dbContext = dbContext;
         }
         [HttpGet]
-        public IActionResult GetNotifications()
+        public async Task<IActionResult> GetNotifications()
         {
-            var res = dbContext.Notifications.ToList();
+            var res = await dbContext.Notifications.ToListAsync();
             return Ok(res);
         }
         public IActionResult Index()
@@ -58,7 +58,7 @@ namespace SignalRYoutube.Controllers
                         break;
                 }
 
-                await hubContext.Clients.All.SendAsync("ReceiveNotification", new List<Notification> { notification });
+                await hubContext.Clients.All.SendAsync("ReceiveNotificationRealtime", new List<Notification> { notification });
                 return RedirectToAction("Index");
             }
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignalRYoutube")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1015ee4346f2d31b5bce35b04a00e3dacab23498")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b00875bfc88e1269df6d28ad3991b4a661103a89")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignalRYoutube")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignalRYoutube")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
