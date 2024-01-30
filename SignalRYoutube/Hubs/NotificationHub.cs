@@ -22,7 +22,7 @@ namespace SignalRYoutube.Hubs
      
         public async Task SendNotificationToClient(string message, string username)
         {
-            var hubConnections = dbContext.HubConnections.Where(con => con.Username == username).ToList();
+            var hubConnections = await dbContext.HubConnections.Where(con => con.Username == username).ToListAsync();
             foreach (var hubConnection in hubConnections)
             {
                 await Clients.Client(hubConnection.ConnectionId).SendAsync("ReceivedPersonalNotification", message, username);
