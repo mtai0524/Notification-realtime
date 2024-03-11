@@ -38,13 +38,18 @@ namespace SignalRYoutube.Hubs
                 //Call Send Email function here
             }
         }
+        private static readonly HashSet<string> ConnectedUsers = new HashSet<string>();
 
-        public override Task OnConnectedAsync()
+        public override async Task OnConnectedAsync()
         {
             Clients.Caller.SendAsync("OnConnected");
-            return base.OnConnectedAsync();
-        }
 
+            string username = await GetUsernameFromContext(); // Implement logic to retrieve username
+
+            ConnectedUsers.Add(username);
+
+            await UpdateConnectedUsersList(); // Broadcast the updated list to all clients
+        }
         public async Task SaveUserConnection(string username)
         {
             var connectionId = Context.ConnectionId;
@@ -60,15 +65,27 @@ namespace SignalRYoutube.Hubs
 
         public override async Task OnDisconnectedAsync(Exception? exception)
         {
-            var hubConnection = dbContext.HubConnections.FirstOrDefault(con => con.ConnectionId == Context.ConnectionId);
+            string username = await GetUsernameFromContext(); // Implement logic to retrieve username
 
-            if (hubConnection != null)
-            {
-                dbContext.HubConnections.Remove(hubConnection);
-                await dbContext.SaveChangesAsync();  // await the asynchronous operation
-            }
+            ConnectedUsers.Remove(username);
+
+            await UpdateConnectedUsersList(); // Broadcast the updated list to all clients
 
             await base.OnDisconnectedAsync(exception);
+        }
+
+        private async Task UpdateConnectedUsersList()
+        {
+            List<string> userList = ConnectedUsers.ToList(); // Convert to a list for easier client-side handling
+            await Clients.All.SendAsync("UpdateUsersList", userList);
+        }
+
+        private async Task<string> GetUsernameFromContext()
+        {
+            var httpContext = Context.GetHttpContext();
+            var username = httpContext.Session.GetString("Username");
+
+            return !string.IsNullOrEmpty(username) ? username : "UnknownUser";
         }
 
     }

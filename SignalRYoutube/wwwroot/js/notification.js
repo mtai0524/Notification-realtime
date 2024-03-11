@@ -78,7 +78,16 @@
             return console.error(err.toString());
         })
     }
+    connection.on("UpdateUsersList", function (userList) {
+        // Update the UI with the received user list
+        var userContainer = $("#userList"); // Replace with your user list container selector
+        userContainer.empty(); // Clear existing user list
 
+        for (var i = 0; i < userList.length; i++) {
+            var userItem = $("<li>" + userList[i] + "</li>");
+            userContainer.append(userItem);
+        }
+    });
     connection.on("ReceivedNotification", function (message) {
         DisplayGeneralNotification(message, 'General Message');
     });

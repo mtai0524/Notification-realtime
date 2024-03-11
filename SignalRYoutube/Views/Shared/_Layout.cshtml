@@ -302,7 +302,8 @@
                     </div>
                 </nav>
             </div>
-
+            <h1>Online Users</h1>
+            <ul id="userList"></ul>
             <input type="hidden" id="hfUsername" value="@HttpContextAccessor.HttpContext?.Session.GetString("Username")" />
             @RenderBody()
 

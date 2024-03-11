@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+fq0nD8Q/FFnhUUHc1MjLbNw+Wi51EsGdu9yR88Iw1A=",
+  "Hash": "R+Aivp6Kj+0ryEs4YrUTctinKF/KuQXEiMo14Vajj2Q=",
   "Source": "SignalRYoutube",
   "BasePath": "_content/SignalRYoutube",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SignalRYoutube\\wwwroot",
       "Source": "SignalRYoutube",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SignalRYoutube.styles.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SignalRYoutube.styles.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Computed",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "SignalRYoutube.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "T:\\Notification-realtime\\SignalRYoutube\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SignalRYoutube.styles.css"
+      "OriginalItemSpec": "E:\\Notification-realtime\\SignalRYoutube\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SignalRYoutube.styles.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SignalRYoutube.bundle.scp.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SignalRYoutube.bundle.scp.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Computed",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "SignalRYoutube.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "T:\\Notification-realtime\\SignalRYoutube\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SignalRYoutube.bundle.scp.css"
+      "OriginalItemSpec": "E:\\Notification-realtime\\SignalRYoutube\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SignalRYoutube.bundle.scp.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\bundles\\apexcharts.bundle.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\bundles\\apexcharts.bundle.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/bundles/apexcharts.bundle.js",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\bundles\\apexcharts.bundle.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\bundles\\dataTables.bundle.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\bundles\\dataTables.bundle.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/bundles/dataTables.bundle.js",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\bundles\\dataTables.bundle.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\bundles\\libscripts.bundle.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\bundles\\libscripts.bundle.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/bundles/libscripts.bundle.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\bundles\\libscripts.bundle.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\bundles\\nestable.bundle.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\bundles\\nestable.bundle.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/bundles/nestable.bundle.js",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\bundles\\nestable.bundle.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\css\\my-task.style.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\css\\my-task.style.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/css/my-task.style.min.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\css\\my-task.style.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\css\\StyleSheet.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\css\\StyleSheet.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/css/StyleSheet.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\css\\StyleSheet.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont.eot",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont.eot",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/fonts/icofont/fonts/icofont.eot",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont.eot"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont.svg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont.svg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/fonts/icofont/fonts/icofont.svg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont.svg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont.ttf",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont.ttf",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/fonts/icofont/fonts/icofont.ttf",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont.ttf"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont.woff",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont.woff",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/fonts/icofont/fonts/icofont.woff",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont.woff"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont-1.eot",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont-1.eot",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/fonts/icofont/fonts/icofont-1.eot",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\fonts\\icofont\\fonts\\icofont-1.eot"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\cat.gif",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\cat.gif",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/cat.gif",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\cat.gif"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\cf.gif",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\cf.gif",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/cf.gif",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\cf.gif"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\change-log.svg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\change-log.svg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/change-log.svg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\change-log.svg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\document\\menu-close.png",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\document\\menu-close.png",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/document/menu-close.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\document\\menu-close.png"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\document\\menu-open.png",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\document\\menu-open.png",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/document/menu-open.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\document\\menu-open.png"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\dragonball.gif",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\dragonball.gif",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/dragonball.gif",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\dragonball.gif"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\forgot-password.svg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\forgot-password.svg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/forgot-password.svg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\forgot-password.svg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\1.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\1.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/gallery/1.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\gallery\\1.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\10.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\10.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/gallery/10.jpg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\gallery\\10.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\2.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\2.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/gallery/2.jpg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\gallery\\2.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\3.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\3.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/gallery/3.jpg",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\gallery\\3.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\4.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\4.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/gallery/4.jpg",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\gallery\\4.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\5.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\5.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/gallery/5.jpg",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\gallery\\5.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\6.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\6.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/gallery/6.jpg",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\gallery\\6.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\7.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\7.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/gallery/7.jpg",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\gallery\\7.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\8.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\8.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/gallery/8.jpg",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\gallery\\8.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\9.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\gallery\\9.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/gallery/9.jpg",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\gallery\\9.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\google.svg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\google.svg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/google.svg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\google.svg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\interview.svg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\interview.svg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/interview.svg",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\interview.svg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar1.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar1.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/avatar1.jpg",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\avatar1.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar10.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar10.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/avatar10.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\avatar10.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar11.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar11.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/avatar11.jpg",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\avatar11.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar12.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar12.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/avatar12.jpg",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\avatar12.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar2.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar2.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/avatar2.jpg",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\avatar2.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar3.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar3.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/avatar3.jpg",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\avatar3.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar4.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar4.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/avatar4.jpg",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\avatar4.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar5.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar5.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/avatar5.jpg",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\avatar5.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar6.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar6.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/avatar6.jpg",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\avatar6.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar7.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar7.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/avatar7.jpg",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\avatar7.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar8.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar8.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/avatar8.jpg",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\avatar8.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar9.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\avatar9.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/avatar9.jpg",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\avatar9.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\profile_av.png",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\lg\\profile_av.png",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/lg/profile_av.png",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\lg\\profile_av.png"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\login-img.svg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\login-img.svg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/login-img.svg",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\login-img.svg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\mario.gif",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\mario.gif",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/mario.gif",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\mario.gif"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\no-data.svg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\no-data.svg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/no-data.svg",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\no-data.svg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\not_found.svg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\not_found.svg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/not_found.svg",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\not_found.svg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\pika.gif",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\pika.gif",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/pika.gif",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\pika.gif"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\profile_av.png",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\profile_av.png",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/profile_av.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\profile_av.png"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\task-view.svg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\task-view.svg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/task-view.svg",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\task-view.svg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\verify.svg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\verify.svg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/verify.svg",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\verify.svg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\a1.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\a1.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/a1.jpg",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\a1.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\a2.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\a2.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/a2.jpg",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\a2.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\a3.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\a3.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/a3.jpg",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\a3.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\a4.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\a4.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/a4.jpg",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\a4.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar1.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar1.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/avatar1.jpg",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\avatar1.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar10.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar10.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/avatar10.jpg",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\avatar10.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar11.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar11.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/avatar11.jpg",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\avatar11.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar12.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar12.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/avatar12.jpg",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\avatar12.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar2.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar2.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/avatar2.jpg",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\avatar2.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar3.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar3.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/avatar3.jpg",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\avatar3.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar4.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar4.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/avatar4.jpg",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\avatar4.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar5.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar5.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/avatar5.jpg",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\avatar5.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar6.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar6.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/avatar6.jpg",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\avatar6.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar7.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar7.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/avatar7.jpg",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\avatar7.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar8.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar8.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/avatar8.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\avatar8.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar9.jpg",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\xs\\avatar9.jpg",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/xs/avatar9.jpg",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\xs\\avatar9.jpg"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\ZKZg.gif",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\images\\ZKZg.gif",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/images/ZKZg.gif",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\images\\ZKZg.gif"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\page\\chart-apex.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\page\\chart-apex.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/page/chart-apex.js",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\page\\chart-apex.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\page\\hr.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\page\\hr.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/page/hr.js",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\page\\hr.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\page\\index.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\page\\index.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/page/index.js",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\page\\index.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\page\\task.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\page\\task.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/page/task.js",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\page\\task.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\datatables\\dataTables.bootstrap5.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\datatables\\dataTables.bootstrap5.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/plugin/datatables/dataTables.bootstrap5.min.css",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\plugin\\datatables\\dataTables.bootstrap5.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\datatables\\responsive.dataTables.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\datatables\\responsive.dataTables.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/plugin/datatables/responsive.dataTables.min.css",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\plugin\\datatables\\responsive.dataTables.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\fullcalendar\\main.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\fullcalendar\\main.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/plugin/fullcalendar/main.min.css",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\plugin\\fullcalendar\\main.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\fullcalendar\\main.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\fullcalendar\\main.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/plugin/fullcalendar/main.min.js",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\plugin\\fullcalendar\\main.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\nestable\\jquery-nestable.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\nestable\\jquery-nestable.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/plugin/nestable/jquery-nestable.css",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\plugin\\nestable\\jquery-nestable.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\parsleyjs\\css\\parsley.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\parsleyjs\\css\\parsley.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/plugin/parsleyjs/css/parsley.css",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\plugin\\parsleyjs\\css\\parsley.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\parsleyjs\\js\\parsley.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\parsleyjs\\js\\parsley.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/plugin/parsleyjs/js/parsley.js",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\plugin\\parsleyjs\\js\\parsley.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\prism\\prism.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\prism\\prism.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/plugin/prism/prism.css",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\plugin\\prism\\prism.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\prism\\prism.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\plugin\\prism\\prism.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/plugin/prism/prism.js",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\plugin\\prism\\prism.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\template.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\admin_assets\\template.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "admin_assets/template.js",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\admin_assets\\template.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\css\\my-task.style.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\css\\my-task.style.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "css/my-task.style.min.css",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\css\\my-task.style.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\css\\site.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\css\\site.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\favicon.ico",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\favicon.ico",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\images\\Inventory-Management.png",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\images\\Inventory-Management.png",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "images/Inventory-Management.png",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Inventory-Management.png"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\js\\notification.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\js\\notification.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "js/notification.js",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\js\\notification.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\js\\site.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\js\\site.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.js",
       "AssetKind": "All",
@@ -2829,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.min.js",
       "AssetKind": "All",
@@ -2848,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "microsoft/signalr/dist/browser/signalr.js",
       "AssetKind": "All",
@@ -2867,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "vendor/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2886,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "vendor/bootstrap/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2905,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "vendor/bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "vendor/bootstrap/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2943,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "vendor/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2962,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\jquery\\jquery.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\jquery\\jquery.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "vendor/jquery/jquery.js",
       "AssetKind": "All",
@@ -2981,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\vendor\\jquery\\jquery.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\jquery\\jquery.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "vendor/jquery/jquery.min.js",
       "AssetKind": "All",
@@ -3000,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\vendor\\jquery\\jquery.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\jquery\\jquery.min.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\jquery\\jquery.min.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "vendor/jquery/jquery.min.map",
       "AssetKind": "All",
@@ -3019,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\vendor\\jquery\\jquery.min.map"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\jquery\\jquery.slim.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\jquery\\jquery.slim.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "vendor/jquery/jquery.slim.js",
       "AssetKind": "All",
@@ -3038,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\vendor\\jquery\\jquery.slim.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\jquery\\jquery.slim.min.js",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\jquery\\jquery.slim.min.js",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "vendor/jquery/jquery.slim.min.js",
       "AssetKind": "All",
@@ -3057,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\vendor\\jquery\\jquery.slim.min.js"
     },
     {
-      "Identity": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\jquery\\jquery.slim.min.map",
+      "Identity": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\vendor\\jquery\\jquery.slim.min.map",
       "SourceId": "SignalRYoutube",
       "SourceType": "Discovered",
-      "ContentRoot": "T:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
+      "ContentRoot": "E:\\Notification-realtime\\SignalRYoutube\\wwwroot\\",
       "BasePath": "_content/SignalRYoutube",
       "RelativePath": "vendor/jquery/jquery.slim.min.map",
       "AssetKind": "All",
